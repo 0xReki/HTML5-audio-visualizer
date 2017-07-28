@@ -6,5 +6,5 @@ canvas scaling and logarithmic frequency scaling.
 
 Demo
 ---
-[See it in action](https://www.0xreki.de/post/2016/12/09-HTML5-audio-visualizer/).
+[See it in action](https://www.0xreki.de/post/2016/12/09-html5-audio-visualizer/).
 
