@@ -1,0 +1,29 @@
+body { font-family: "Source Serif Pro"; }
+
+h1, h2, h3, h4 { font-family: "Marcellus SC"; }
+
+.footnotes .reversefootnote { display: none; }
+
+blockquote { font-family: "Marcellus SC"; font-size: 100%; line-height: 2 !important; }
+
+blockquote > p:first-child { font-weight: bold; }
+
+blockquote p, blockquote li { line-height: 3 !important; }
+
+a { text-decoration: none; }
+
+.calibre-pdf-toc .level-0:first-of-type { display: none; }
+
+.pdf-break-before { break-before: always !important; page-break-before: always !important; }
+
+.pdf-only { display: block !important; }
+
+.series-title, #series-title { text-align: center !important; font-size: 400% !important; font-family: Marcellus !important; }
+
+.volume-number, #volume-number { text-align: center !important; font-size: 400% !important; font-family: Marcellus !important; }
+
+.series-title + p { text-align: center !important; font-size: 200% !important; font-family: Marcellus !important; }
+
+.volume-number + p { text-align: center !important; font-size: 200% !important; font-family: serif !important; }
+
+/*# sourceMappingURL=pdf.css.map */

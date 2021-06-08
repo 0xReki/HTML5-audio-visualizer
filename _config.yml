@@ -1,3 +1,4 @@
+title: 0xReki's GitHub
 url: https://0xreki.github.io/HTML5-audio-visualizer
 
 plugins:
@@ -5,4 +6,10 @@ plugins:
 
 remote_theme: 0xReki/crystaldown-theme
 
-destination: docs
+destination: doc
+
+### Copyright
+copyright:
+  license: <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">CC-BY 4.0</a>
+  name: Thai “0xReki” Chung
+  url: https://0xreki.de/about-me/
