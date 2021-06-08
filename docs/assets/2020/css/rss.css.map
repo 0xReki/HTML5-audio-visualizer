@@ -3,8 +3,8 @@
 	"file": "rss.css",
 	"sources": [
 		"rss.scss",
-		"../../../../tmp/jekyll-remote-theme-20210608-25382-8lcud6/_sass/_fonts-files-web.scss",
-		"../../../../tmp/jekyll-remote-theme-20210608-25382-8lcud6/_sass/_colors-common.scss"
+		"../../../../tmp/jekyll-remote-theme-20210608-27238-k21gbl/_sass/_fonts-files-web.scss",
+		"../../../../tmp/jekyll-remote-theme-20210608-27238-k21gbl/_sass/_colors-common.scss"
 	],
 	"sourcesContent": [
 		"@import \"fonts-files-web\";\n@import \"colors-common\";\n\n* {\n    font-family: Source Sans Pro, sans-serif;\n}\n\nfeed {\n    display: flex;\n    flex-direction: column;\n}\n\ntitle {\n    order: 0;\n    display: block;\n\n    font-family: \"Marcellus\", \"Source Serif Pro\", \"Noto Serif\", serif;\n    font-size: 2.5rem;\n}\n\nsubtitle {\n    order: 10;\n    display: block;\n\n    &::after {\n        content: 'This is an Atom Feed. Please use this page with an Atom or RSS reader.';\n        display: block;\n    }\n}\n\nid, generator, license { \n    display: none;\n}\n\nupdated {\n    order: 21;\n    display: block;\n    \n    &::before {\n        content: \"Updated on&nbsp;\";\n        display: inline-block;\n    }\n}\n\npublished {\n    order: 20;\n    display: block;\n    \n    &::before {\n        content: \"ublished on&nbsp;\";\n        display: inline-block;\n    }\n}\n\nauthor {\n    order: 30;\n    display: block;\n    \n    &::before {\n        content: \"Written by&nbsp;\";\n        display: inline-block;\n    }\n}\n\nentry {\n    order: 100;\n    display: block;\n\n    title {\n        font-size: 2rem;\n    }\n}",
