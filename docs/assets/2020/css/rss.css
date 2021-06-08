@@ -1,0 +1,47 @@
+@font-face { font-family: "Cardo"; font-style: normal; font-weight: 400; font-display: swap; src: local("Cardo Regular"), local("Cardo-Regular"), url(/assets/fonts/Cardo-Regular.woff2) format("woff2"), url(/assets/fonts/Cardo-Regular.ttf) format("truetype"); }
+
+@font-face { font-family: "Cardo"; font-style: normal; font-weight: 500; font-display: swap; src: local("Cardo Regular"), local("Cardo-Regular"), url(/assets/fonts/Cardo-Regular.woff2) format("woff2"), url(/assets/fonts/Cardo-Regular.ttf) format("truetype"); }
+
+@font-face { font-family: "Cardo"; font-style: normal; font-weight: 700; font-display: swap; src: local("Cardo Bold"), local("Cardo-Bold"), url(/assets/fonts/Cardo-Bold.woff2) format("woff2"), url(/assets/fonts/Cardo-Bold.ttf) format("truetype"); }
+
+@font-face { font-family: "Source Sans Pro"; font-style: normal; font-weight: 400; font-display: swap; src: local("Source Sans Pro Regular"), local("SourceSansPro-Regular"), url(/assets/fonts/Source-Sans-Pro-Regular.woff2) format("woff2"), url(/assets/fonts/Source-Sans-Pro-Regular.ttf) format("truetype"); }
+
+@font-face { font-family: "Source Sans Pro"; font-style: normal; font-weight: 700; font-display: swap; src: local("Source Sans Pro Bold"), local("SourceSansPro-Bold"), url(/assets/fonts/Source-Sans-Pro-Bold.woff2) format("woff2"), url(/assets/fonts/Source-Sans-Pro-Bold.ttf) format("truetype"); }
+
+@font-face { font-family: emoji; font-style: normal; font-weight: 400; font-display: swap; src: local("Apple Color Emoji"), local("Segoe UI Emoji"), local("Segoe UI Symbol"), local("Noto Color Emoji"), local("EmojiOne Android"); }
+
+@font-face { font-family: "OpenDyslexic"; font-style: normal; font-weight: 400; font-display: swap; src: local("OpenDyslexic Regular"), local("OpenDyslexic-Regular"), url(/assets/fonts/OpenDyslexic-Regular.woff2) format("woff2"), url(/assets/fonts/OpenDyslexic-Regular.otf) format("opentype"); }
+
+@font-face { font-family: "OpenDyslexic"; font-style: italic; font-weight: 400; font-display: swap; src: local("OpenDyslexic Italic"), local("OpenDyslexic-Italic"), url(/assets/fonts/OpenDyslexic-Italic.woff2) format("woff2"), url(/assets/fonts/OpenDyslexic-Italic.otf) format("opentype"); }
+
+@font-face { font-family: "Alexa"; font-style: normal; font-weight: 400; font-display: swap; src: local("Alexa"), local("alexa-std"), url(/assets/fonts/Alexa.woff2) format("woff2"), url(/assets/fonts/Alexa.ttf) format("truetype"); }
+
+* { font-family: Source Sans Pro, sans-serif; }
+
+feed { display: flex; flex-direction: column; }
+
+title { order: 0; display: block; font-family: "Marcellus", "Source Serif Pro", "Noto Serif", serif; font-size: 2.5rem; }
+
+subtitle { order: 10; display: block; }
+
+subtitle::after { content: 'This is an Atom Feed. Please use this page with an Atom or RSS reader.'; display: block; }
+
+id, generator, license { display: none; }
+
+updated { order: 21; display: block; }
+
+updated::before { content: "Updated on&nbsp;"; display: inline-block; }
+
+published { order: 20; display: block; }
+
+published::before { content: "ublished on&nbsp;"; display: inline-block; }
+
+author { order: 30; display: block; }
+
+author::before { content: "Written by&nbsp;"; display: inline-block; }
+
+entry { order: 100; display: block; }
+
+entry title { font-size: 2rem; }
+
+/*# sourceMappingURL=rss.css.map */

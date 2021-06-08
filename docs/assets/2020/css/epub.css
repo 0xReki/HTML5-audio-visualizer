@@ -1,0 +1,129 @@
+@font-face { font-family: "Marcellus"; font-style: normal; font-weight: 400; src: local("Marcellus-Regular.ttf"); }
+
+@font-face { font-family: "Source Sans Pro"; font-style: normal; font-weight: 400; src: local("Source-Sans-Pro-Regular.ttf"); }
+
+@font-face { font-family: "Source Sans Pro"; font-style: normal; font-weight: bold; src: local("Source-Sans-Pro-Bold.ttf"); }
+
+@font-face { font-family: "Source Serif Pro"; font-style: normal; font-weight: bold; src: local("Source-Serif-Pro-Bold.ttf"); }
+
+@font-face { font-family: "Source Serif Pro"; font-style: normal; font-weight: 400; src: local("Source-Serif-Pro-Regular.ttf"); }
+
+* { -webkit-font-smoothing: subpixel-antialiased; -moz-osx-font-smoothing: grayscale; }
+
+@media (min-width: 1025px) { * { text-rendering: optimizeLegibility; } }
+
+body { font-family: "Source Sans Pro", "Noto Sans", Roboto, "Segoe UI", sans-serif; font-feature-settings: "ss04"; }
+
+.unicode-icon, .button a span { font-family: emoji; }
+
+h1, .h1, h2, .h2, h3 { font-family: "Cardo", "Source Serif Pro", "Noto Serif", serif; }
+
+.handwriting { font-family: "Alexa", cursive; }
+
+.inscription { font-family: "Cardo", "Source Serif Pro", "Noto Serif", serif; font-feature-settings: "hlig"; margin: 0 4rem 1rem; }
+
+.hist, .long-s { font-feature-settings: "hist", "hlig"; }
+
+body, a, header, header *, footer, footer * { color: black; background-color: white; }
+
+hr { background-color: black; }
+
+blockquote { background-color: white; border-color: black; }
+
+blockquote > p:first-child { background-color: white; color: black; }
+
+blockquote > p:first-child a { background-color: white; color: black; }
+
+ruby { white-space: pre-wrap; }
+
+rt { font-size: 70%; line-height: 0; margin-top: -1.5rem; }
+
+rb { display: block; text-align: center; line-height: 0.8; }
+
+rb.first { text-align: right; }
+
+rb.last { text-align: left; }
+
+main p { margin-block-end: 1.5rem; margin-inline-start: 0; margin-inline-end: 0; }
+
+.interface p:first-child, .interface ul { line-height: 250%; }
+
+sub { bottom: 0; font-size: 100%; }
+
+body { font-weight: 400; margin: 0; }
+
+h1, .h1, h2, .h2, h3 { break-after: avoid; font-weight: bold; }
+
+h1 + h2, h1 + h3, h1 blockquote, .h1 + h2, .h1 + h3, .h1 blockquote, h2 + h2, h2 + h3, h2 blockquote, .h2 + h2, .h2 + h3, .h2 blockquote, h3 + h2, h3 + h3, h3 blockquote { break-before: avoid; page-break-before: avoid; }
+
+h1 + p, .h1 + p, h2 + p, .h2 + p, h3 + p { margin-top: 0; }
+
+h1, .h1 { font-size: 150%; margin-top: 0; }
+
+h2, .h2 { font-size: 120%; }
+
+hr { border: 0; height: 1px; margin: 0; }
+
+hr + aside { margin-top: .5em; }
+
+.buttons { display: flex; justify-content: center; }
+
+.btn { border: 1px solid; border-radius: .5em; display: block; text-align: center; margin: 0 .5em; }
+
+blockquote { display: block; margin: 1em; padding: 0em; font-family: "Marcellus SC"; font-style: normal; border: 2px solid; border-radius: 10px; break-inside: avoid; box-decoration-break: slice; }
+
+blockquote blockquote { margin: 0 1em 1em; }
+
+blockquote > p { margin: 0 1em 1em; }
+
+blockquote > p:first-child { display: block; border: 0; border-bottom: 1px solid; padding: .5em 1em; margin: 0 0 1em; font-weight: bold; break-after: avoid; }
+
+blockquote > table { margin: 0 1em 1em; }
+
+blockquote ul { margin: 0 1em 1em; padding-left: 1.5em; }
+
+blockquote ul li { margin: 3pt 0; }
+
+blockquote ul li > ul { margin: 0; }
+
+.float-right { display: block; float: right; margin: 0; }
+
+.count { text-align: right; display: inline-block; }
+
+.count.w-2 { width: 2em; }
+
+.count.w-3 { width: 3em; }
+
+.clearfix { content: ""; clear: both; }
+
+.pdf-only { display: none; }
+
+p, table, li { line-height: 2.2; }
+
+p { margin-block-start: 2em; margin-block-end: 2em; margin-inline-start: 0px; margin-inline-end: 0px; text-align: justify; }
+
+.html-only { display: none; }
+
+.html-only + * { display: none; }
+
+.html-only + * * { display: none; }
+
+table { width: 100%; }
+
+.right-2 td:nth-child(2n) { text-align: right; }
+
+.right-2 td:nth-child(2n) rb { text-align: right; }
+
+#afterword { break-before: always; page-break-before: always; }
+
+.series-title { text-align: center; font-size: 300%; font-family: Marcellus; }
+
+.series-title + p { text-align: center; font-size: 200%; font-family: Marcellus; }
+
+.volume-number { text-align: center; font-size: 300%; font-family: Marcellus; }
+
+.volume-number + p { text-align: center; font-size: 200%; font-family: "Source Serif Pro"; }
+
+.html-only, .pdf-only { display: none; }
+
+/*# sourceMappingURL=epub.css.map */

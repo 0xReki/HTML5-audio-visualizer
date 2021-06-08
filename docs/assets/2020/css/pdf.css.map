@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "pdf.css",
+	"sources": [
+		"pdf.scss"
+	],
+	"sourcesContent": [
+		"body {\n  font-family: \"Source Serif Pro\";\n}\n\nh1, h2, h3, h4 {\n  font-family: \"Marcellus SC\";\n}\n\n.footnotes .reversefootnote {\n  display: none;\n}\n\nblockquote {\n  font-family: \"Marcellus SC\";\n  font-size: 100%;\n  line-height: 2 !important;\n\n  > p:first-child {\n    font-weight: bold;\n  }\n\n  p, li {\n    line-height: 3 !important;\n  }\n}\n\na {\n  text-decoration: none;\n}\n\n.calibre-pdf-toc {\n  .level-0 {\n    &:first-of-type {\n      display: none;\n    } \n  }\n}\n\n.pdf-break-before {\n  break-before: always !important;\n  page-break-before: always !important;\n}\n\n.pdf-only {\n  display: block !important;\n}\n\n.series-title, #series-title {\n  text-align: center !important;\n  font-size: 400% !important;\n  font-family: Marcellus !important;\n}\n\n.volume-number, #volume-number {\n  text-align: center !important;\n  font-size: 400% !important;\n  font-family: Marcellus !important;\n}\n\n.series-title + p {\n  text-align: center !important;\n  font-size: 200% !important;\n  font-family: Marcellus !important;\n}\n\n.volume-number + p {\n  text-align: center !important;\n  font-size: 200% !important;\n  font-family: serif !important;\n}\n"
+	],
+	"names": [],
+	"mappings": "AAAA,AAAA,IAAI,CAAC,EACH,WAAW,EAAE,kBAAkB,GAChC;;AAED,AAAA,EAAE,EAAE,EAAE,EAAE,EAAE,EAAE,EAAE,CAAC,EACb,WAAW,EAAE,cAAc,GAC5B;;AAED,AAAA,UAAU,CAAC,gBAAgB,CAAC,EAC1B,OAAO,EAAE,IAAI,GACd;;AAED,AAAA,UAAU,CAAC,EACT,WAAW,EAAE,cAAc,EAC3B,SAAS,EAAE,IAAI,EACf,WAAW,EAAE,YAAY,GAS1B;;AAZD,AAKE,UALQ,GAKN,CAAC,CAAC,WAAW,CAAC,EACd,WAAW,EAAE,IAAI,GAClB;;AAPH,AASE,UATQ,CASR,CAAC,EATH,UAAU,CASL,EAAE,CAAC,EACJ,WAAW,EAAE,YAAY,GAC1B;;AAGH,AAAA,CAAC,CAAC,EACA,eAAe,EAAE,IAAI,GACtB;;AAED,AAEI,gBAFY,CACd,QAAQ,CACJ,aAAa,CAAC,EACd,OAAO,EAAE,IAAI,GACd;;AAIL,AAAA,iBAAiB,CAAC,EAChB,YAAY,EAAE,iBAAiB,EAC/B,iBAAiB,EAAE,iBAAiB,GACrC;;AAED,AAAA,SAAS,CAAC,EACR,OAAO,EAAE,gBAAgB,GAC1B;;AAED,AAAA,aAAa,EAAE,aAAa,CAAC,EAC3B,UAAU,EAAE,iBAAiB,EAC7B,SAAS,EAAE,eAAe,EAC1B,WAAW,EAAE,oBAAoB,GAClC;;AAED,AAAA,cAAc,EAAE,cAAc,CAAC,EAC7B,UAAU,EAAE,iBAAiB,EAC7B,SAAS,EAAE,eAAe,EAC1B,WAAW,EAAE,oBAAoB,GAClC;;AAED,AAAA,aAAa,GAAG,CAAC,CAAC,EAChB,UAAU,EAAE,iBAAiB,EAC7B,SAAS,EAAE,eAAe,EAC1B,WAAW,EAAE,oBAAoB,GAClC;;AAED,AAAA,cAAc,GAAG,CAAC,CAAC,EACjB,UAAU,EAAE,iBAAiB,EAC7B,SAAS,EAAE,eAAe,EAC1B,WAAW,EAAE,gBAAgB,GAC9B"
+}
